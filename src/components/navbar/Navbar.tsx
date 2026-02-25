@@ -13,7 +13,7 @@ function Navbar() {
           />
         </div>
 
-        <div className="w-1/3">
+        <div className="w-1/3 hidden md:block">
           <input
             type="text"
             name="search"
@@ -23,7 +23,7 @@ function Navbar() {
           />
         </div>
 
-        <button className="bg-blue-700 cursor-pointer text-white px-4 py-2 rounded-3xl hover:bg-blue-800">
+        <button className="hidden md:block bg-blue-700 cursor-pointer text-white px-4 py-2 rounded-3xl hover:bg-blue-800">
           Buscar
         </button>
 

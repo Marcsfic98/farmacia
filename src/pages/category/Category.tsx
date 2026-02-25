@@ -15,7 +15,7 @@ function Category() {
       <div className="self-end mt-5 px-6">
         <ModalCategoria />
       </div>
-      <div className="container grid grid-cols-3 p-4">
+      <div className="container grid grid-cols-1  md:grid-cols-3 p-4">
         {categorias.map((categoria) => (
           <CardCategoria key={categoria.id} categoria={categoria} />
         ))}
