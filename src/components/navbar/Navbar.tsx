@@ -1,4 +1,5 @@
 import { FaCartShopping, FaUser } from "react-icons/fa6";
+import { Link } from "react-router";
 
 function Navbar() {
   return (
@@ -38,13 +39,17 @@ function Navbar() {
       <div className="w-full bg-blue-700 flex p-2 items-center justify-center">
         <ul className="flex text-white justify-center gap-8">
           <li>
-            <a href="#home">Home</a>
+            <Link to="/" className="hover:underline">
+              Home
+            </Link>
           </li>
           <li>
             <a href="#produtos">Produtos</a>
           </li>
           <li>
-            <a href="#servicos">Categorias</a>
+            <Link to="/categorias" className="hover:underline">
+              Categorias
+            </Link>
           </li>
           <li>
             <a href="#contato">Contato</a>

@@ -19,7 +19,7 @@ const Home = () => {
           rapidez e segurança.
         </p>
         <button className="bg-white cursor-pointer text-blue-700 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-100 transition-all duration-300 transform hover:scale-105">
-          Conheça Nossos Serviços
+          Confira nossos produtos
         </button>
       </div>
     </section>
